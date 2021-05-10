@@ -1,12 +1,12 @@
 # Zuri-CRUD-App-with-Database
 
-A simple express application that perfoms CRUD action. Here is the `Hosted Link - Base URL`: [https://immense-falls-32588.herokuapp.com/](https://immense-falls-32588.herokuapp.com/ "CRUD App"). This Base URL redirects to the `/api/all` route.
+A simple express application that perfoms CRUD action. Here is the `Hosted Link - Base URL`: [https://immense-falls-32588.herokuapp.com/](https://immense-falls-32588.herokuapp.com/ "CRUD App"). This Base URL redirects to the `https://immense-falls-32588.herokuapp.com/api/all` route.
 
 # Creates the data
 
 The route below is used to create a data that contains `name`, `email` & `country`.
 
-**URL** : `/api/create/`
+**URL** : `https://immense-falls-32588.herokuapp.com/api/create/`
 
 **Method** : `POST`
 
@@ -58,7 +58,7 @@ The route below is used to create a data that contains `name`, `email` & `countr
 
 The route below is used to get a data that has been created.
 
-**URL** : `/api/read/:dataId`
+**URL** : `https://immense-falls-32588.herokuapp.com/api/read/:dataId`
 
 **Method** : `GET`
 
@@ -102,7 +102,7 @@ The `:dataId` is the unique id of each data. Using `John Doe's` data and picking
 
 The route below is used to update a data that contains `name`, `email` & `country`.
 
-**URL** : `/api/update/:dataId`
+**URL** : `https://immense-falls-32588.herokuapp.com/api/update/:dataId`
 
 **Method** : `PUT`
 
@@ -154,7 +154,7 @@ The route below is used to update a data that contains `name`, `email` & `countr
 
 The route below is used to delete a data that has been created.
 
-**URL** : `/api/delete/:dataId`
+**URL** : `https://immense-falls-32588.herokuapp.com/api/delete/:dataId`
 
 **Method** : `DELETE`
 
@@ -192,7 +192,7 @@ The `:dataId` is the unique id of each data. Using `John Doe's` data and picking
 
 The route below is used to get all data.
 
-**URL** : `/api/all`
+**URL** : `https://immense-falls-32588.herokuapp.com/api/all`
 
 **Method** : `GET`
 
